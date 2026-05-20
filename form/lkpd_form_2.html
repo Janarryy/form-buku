@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>FORM INPUT BUKU</title>
+	</head>
+	<body>
+		<table border="1" cellpadding="10" cellspacing="0">
+			<th colspan="2" bgcolor="lightblue">FORM INPUT BUKU</th>
+			<tr>
+				<td>Kode Buku:</td>
+				<td> <input type="text" name="kode" placeholder="Kode Buku" </td>
+			</tr>
+			<tr>
+				<td>Judul Buku:</td>
+				<td> <input type="text" name="judul" placeholder="Judul Buku"> </td>
+			</tr>
+			<tr>
+				<td>Pengarang:</td>
+				<td> <input type="text" name="pengarang" placeholder="Pengarang"> </td>
+			</tr>
+			<tr>
+				<td>Penerbit:</td>
+				<td> <input type="text" name="penerbit" placeholder="Penerbit"> </td>
+			</tr>
+			<tr>
+				<td>Tahun Terbit:</td>
+				<td> <input type="text" name="tahun terbit" placeholder="Tahun Terbit"> </td>
+			</tr>
+			<tr>
+				<td>Kategori:</td>
+				<td> <select>
+				<option value="Pilih Kategori">
+				Pilih Kategori</option>
+				<option value="Manga">
+				Manga</option>
+				<option value="Novel">
+				Novel</option>
+				<option value="Komik">
+				Komik</option>
+				<option value="Manhwa">
+				Manwha</option>
+			</select> </td>
+			</tr>
+			<td>Kondisi Buku:</td>
+			<td> <label><input type ="radio" name="Baru" value"baru" />
+			Baru</label>
+			<label><input type ="radio" name="Bekas" value"bekas" />
+			Bekas</label>
+			</td>
+			<tr>
+			<td>Jumlah Buku:</td>
+				<td><input type="text" name="jumlah buku" placeholder="Jumlah Buku"></td>
+			</tr>
+			<tr>
+				<td>Deskripsi</td>
+				<td> <textarea name="deskripsi"></textarea></td>
+			</tr>
+			<tr>
+				<td>Upload Cover</td>
+				<td><input type="file"></td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<center>
+						<input type="submit" name="Simpan" value="Simpan"> 
+						<input type="submit" name="Reset" value="Reset">
+					</center>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
